@@ -1,4 +1,5 @@
 class ReputationChangeObserver < ApplicationRecord
+	include Merit
 
   def update(changed_data)
     description = changed_data[:description]
