@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'pages/dashboard'
+   
+  root to: 'pages#dashboard'
 
   get 'pages/trophy'
 
