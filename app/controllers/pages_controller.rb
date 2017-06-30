@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def dashboard
+  	@badge = Badge.all
   end
 
   def trophy

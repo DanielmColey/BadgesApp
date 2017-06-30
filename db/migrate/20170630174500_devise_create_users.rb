@@ -21,7 +21,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.0]
 
       ## Custom columns
       t.string :name
-      t.string :badges
 
       ## Confirmable
       # t.string   :confirmation_token
