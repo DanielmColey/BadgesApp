@@ -24,6 +24,12 @@ Merit.setup do |config|
     description: "Active member for a year",
     custom_fields: { difficulty: :silver }
   )
+    Merit::Badge.create!(
+    id: 2,
+    name: "testing",
+    description: "You better work!",
+    custom_fields: { difficulty: :silver }
+  )
 
     config.add_observer 'ReputationChangeObserver'
 end
