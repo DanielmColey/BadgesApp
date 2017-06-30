@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'pages/dashboard'
+
+  root to: 'pages#dashboard'
 
   get 'pages/trophy'
 
