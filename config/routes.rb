@@ -3,7 +3,7 @@ Rails.application.routes.draw do
    
   root to: 'pages#dashboard'
 
-  get 'pages/trophy'
+  get 'trophy', to: 'pages#trophy'
 
   get 'pages/points'
 
